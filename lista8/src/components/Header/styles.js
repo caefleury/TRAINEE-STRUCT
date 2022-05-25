@@ -1,11 +1,10 @@
 import styled from 'styled-components'
 
+
 export const Container = styled.header`
     color: #747474;
     width:100%;
-    height:224px;
-    padding-top:85px;
-    padding-bottom:139px;
+    height:11.25rem;
     margin:0;
     display:flex;
     align-items:center;
@@ -13,10 +12,17 @@ export const Container = styled.header`
     .navbar__menu {
         display:flex;
         align-items:center;
-        justify-content:space-around;
+        justify-content:center;
         font-weight: 400;
-        font-size:18px;
-        width: 30%;
+        font-size:1.125rem;
+        line-height:1.318rem;
+        width: 80%;
+        gap:3.813rem;
+    }
+    .cart__container{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
     }
 `
     
